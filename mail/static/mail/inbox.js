@@ -18,7 +18,7 @@ function show_email(id){
   fetch(`/emails/${id}`, {
     method: 'PUT',
     body: JSON.stringify({
-        read: false
+        read: true
     })
   })
   
