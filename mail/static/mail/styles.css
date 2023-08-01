@@ -1,0 +1,6 @@
+textarea {
+    min-height: 400px;
+}
+#compose-body {
+    white-space: pre-wrap;
+}
